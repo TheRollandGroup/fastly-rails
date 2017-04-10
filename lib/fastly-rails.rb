@@ -36,4 +36,8 @@ module FastlyRails
     )
   end
 
+  def self.purge_everything
+    client.purge_everything!
+  end
+
 end
